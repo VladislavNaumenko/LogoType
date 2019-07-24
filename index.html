@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
     <title>LogoType</title>
 </head>
 <body>
@@ -23,7 +25,7 @@
             <div class="header-menu-logo">
                 <h2><span>logo</span>type</h2>
             </div>
-            <div class="header-menu-list">
+            <div class="nav">
                 <ul class="menu">
                     <li><a href="">Главная</a> </li>
                     <li><a href="">О компании</a></li>
@@ -37,99 +39,160 @@
         </div>
     </div>
     <div class="services">
-        <div class="services-description">
-            <h2>Наши услуги</h2>
+        <div class="services-content">
+        <div class="services-wrap">
+            <div class="services-description">
+            <span>Наши услуги</span>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores quasi esse ipsum iusto quia id.</p>
         </div>
         <button>Показать все услуги</button>
+        </div>
     
         <div class="services-list">
             <div class="services-item">
-                <img src="" alt="">
-                <h2>Банкротство и ликвидация</h2>
+                <img src="img/bankruptcy.png" alt="">
+                <span>Банкротство и ликвидация</span>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, laborum!</p>
                 <div class="services-list-links">
                     <a href="">Подробнее</a>
-                    <button>Заказать</button>
+                    <a><img src="img/btn-order.png" alt=""></a>
                 </div>
             </div>
             <div class="services-item">
-                <img src="" alt="">
-                <h2>Адвокатское сопровождение</h2>
+                <img src="img/lawer-support.png" alt="">
+                <span>Адвокатское сопровождение</span>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, laborum!</p>
                 <div class="services-list-links">
                     <a href="">Подробнее</a>
-                    <button>Заказать</button>
+                    <a><img src="img/btn-order.png" alt=""></a>
                 </div>
             </div>
             <div class="services-item">
-                <img src="" alt="">
-                <h2>Налоговый аудит</h2>
+                <img src="img/tax-audit.png" alt="">
+                <span>Налоговый аудит</span>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, laborum!</p>
                 <div class="services-list-links">
                     <a href="">Подробнее</a>
-                    <button>Заказать</button>
+                    <a><img src="img/btn-order.png" alt=""></a>
                 </div>
             </div>
             
         </div>
+        </div>
     </div>
     <div class="about">
-        <h2>О компании</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae blanditiis veritatis ab ut culpa exercitationem quasi. Vero cupiditate, ab possimus porro magni molestias iste quae autem, sed suscipit, perferendis nulla?</p>
-        <button>Узнать больше</button>
+            <h2>О компании</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae blanditiis veritatis ab ut culpa exercitationem quasi. Vero cupiditate, ab possimus porro magni molestias iste quae autem, sed suscipit, perferendis nulla?</p>
+            <a href=""><img src="img/btn-learn-more.png" alt=""></a>
     </div>
     <div class="get-consult">
         <div class="get-consult-content">
-            <h2>Получить консультацию</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque, iure! Dolorem, veritatis!</p>
-            <div class="get-consult-content-areas">
-                <div class="get-consult-content-areas-email">
+            <div class="get-consult-description">
+                <h2>Получить консультацию</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque, iure! Dolorem, veritatis!</p>
+            </div>
+            <div class="get-consult-content-wrap">
+                <div class="get-consult-content-areas">
                     <span>E-mail</span>
                     <input type="email" name="" id="">
-                </div>
-                <div class="get-consult-content-areas-phone">
                     <span>Контактный телефон</span>
                     <input type="tel" name="" id="">
-                </div>
-                <div class="get-consult-content-areas-name">
                     <span>ФИО</span>
                     <input type="text" name="" id="">
-                </div>
-                <div class="get-consult-content-areas-theme">
                     <span>Тема вопроса</span>
-                    <input type="text" name="" id="">
-                </div>
+                    <select>
+                        <option>-- -- --</option>
+                        <option>Пункт 1</option>
+                        <option>Пункт 2</option>
+                        <option>Пункт 3</option>
+                    </select>
             </div>
             <div class="get-consult-content-main">
                 <div class="get-consult-content-main-text">
                     <span>Сообщение</span>
-                    <input type="text" name="" id="">
+                    <textarea rows="10" cols="45" name="text"></textarea>
                 </div>
-                <button>Получить консультацию</button>
+                <a href=""><img src="img/btn-get-consult.png" alt=""></a>
             </div>
+            </div>
+            
         </div>
+       <div class="get-consult-photo"></div>
     </div>
     <div class="advantages">
         <div class="advantages-list">
             <div class="advantages-list-item">
-                <img src="" alt="">
+                <img src="img/icon-check.png" alt="">
                 <span>Десятки добровольных ликвадаций ежемесячно</span>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, ut.</p>
             </div>
             <div class="advantages-list-item">
-                <img src="" alt="">
+                 <img src="img/icon-check.png" alt="">
                 <span>Отличное знание законов в сфере банкротсва</span>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, ut.</p>
             </div>
             <div class="advantages-list-item">
-                <img src="" alt="">
+                 <img src="img/icon-check.png" alt="">
                 <span>Большой опыт в сопровождении банкротства</span>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, ut.</p>
             </div>
         </div>
     </div>
-    
-    
+    <div class="news">
+        
+        <div class="news-content">
+
+    <div class="news-wrap">
+            <div class="news-description">
+            <h2>Новости Компании</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores quasi esse ipsum iusto quia id.</p>
+        </div>
+        <button>Открыть все новости</button>
+        </div>
+
+
+
+
+
+
+
+        <div class="news-list">
+            <div class="news-list-item-main">
+                 <img src="img/bq-news.png" alt="">
+                <h3>Банкротство и ликвидация предприятий в Украине</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam repellendus adipisci omnis ipsam odit inventore!</p>
+                <span>Андрей Ворошилов, генеральный директор компании Bankom</span>
+            </div>
+            <div class="news-list-item">
+                 <img src="img/date.png" alt="" class="icon">
+                <img src="img/img-news-photo.png" alt="" class="illustr">
+                <h3>Новость компании</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam repellendus adipisci omnis ipsam odit inventore!</p>
+                
+            </div>
+            <div class="news-list-item">
+                <img src="img/date.png" alt="" class="icon">
+                <img src="img/img-news-photo-2.png" alt="" class="illustr">
+                <h3>Новость компании</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam repellendus adipisci omnis ipsam odit inventore!</p>
+                
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="location">
+        <div class="location-info">
+            <span>Комплексное закрытие предприятия</span>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab omnis repellendus neque.</p>
+            <a href=""><img src="img/btn-free-consult.png" alt=""></a>
+            <a href=""><img src="img/info-phone.png" alt="">+38 (096) 309 21 45</a>
+            <a href=""><img src="img/info-post.png" alt="">layout585@gmail.com</a>
+            <a href=""><img src="img/info-map.png" alt="">Киев, ул.Пушкиной, д.13</a>
+        </div>
+        <div class="map"></div>
+    </div>
+    <footer>
+        <p>@ 2017 Template by Naumenko Vladislav. Все права защищены.</p>
+    </footer>
 </body>
 </html>
